@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+div {
+    margin-bottom: 15px;
+}
+
+div[data-testid="slackDisplayName"],
+div[data-testid="slackEmail"] {
+    font-weight: bold;
+}
+
+div[data-testid^="currentTime"],
+div[data-testid="currentDay"] {
+    font-style: italic;
+    color: #666;
+}
+
+div[data-testid^="hngLink"],
+div[data-testid^="keywordLink"],
+div[data-testid^="scrapeanywebLink"] {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
